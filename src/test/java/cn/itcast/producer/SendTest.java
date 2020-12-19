@@ -1,5 +1,6 @@
 package cn.itcast.producer;
 
+
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
