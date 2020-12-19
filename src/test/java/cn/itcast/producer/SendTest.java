@@ -10,6 +10,7 @@ public class SendTest {
     public static void main(String[] args) {
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("applicationContext-rabbitmq-producer.xml");
 
+        System.out.println("lalalalala");
         System.out.println("这是新增的代码");
         System.out.println("这是新增的代码");
         System.out.println("多人同时操作同一行，出现冲突");
